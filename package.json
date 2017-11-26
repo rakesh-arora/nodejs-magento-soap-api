@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-magento-soap-api",
+  "version": "1.0.0",
+  "description": "Nodejs with magento soap api wrapper",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "NODE_ENV=test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakesharora/nodejs-mongodb.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "magento",
+    "soap",
+    "api"
+  ],
+  "author": "Rakesh Arora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rakesharora/nodejs-mongodb/issues"
+  },
+  "homepage": "https://github.com/rakesharora/nodejs-mongodb#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "llog": "0.0.13",
+    "magento": "0.0.4",
+    "cconfig": "^1.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "eslint": "^4.2.0"
+  }
+}
